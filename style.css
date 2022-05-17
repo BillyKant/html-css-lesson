@@ -1,0 +1,85 @@
+/* 
+    The CSS ruleset syntax
+    
+    selector {
+            decleration
+
+            prperty: value;
+
+    }
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #2c3e50;
+    position: fixed;
+    width: 100vw;
+    height: 3em;
+    padding-left: 1.5em;
+    box-shadow: 0px 10px 40px --10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.nav-link:hover {
+    color: #2980b9
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+.main-wrapper{
+    padding-top: 3em;
+}
+
+#main-heading{
+    padding: 0.5em;
+}
+
+#main-text {
+    font-size: 15vw;
+}
+
+#html {
+    background-color: #bdc3c7;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: .5em;
+}
+.p-img-logos {
+    width: 10em;
+    height: 10em;
+    object-fit: contain;
+}
+
+.text-img-wrapper {
+    display: flex;
+    text-align: justify;
+}
+
+
+
+
+
